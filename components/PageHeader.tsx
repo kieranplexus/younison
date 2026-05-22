@@ -11,15 +11,15 @@ export default function PageHeader({
   eyebrow?: string;
 }) {
   return (
-    <section className="border-b border-line bg-surface">
-      <Container className="py-16 md:py-24">
+    <section className="relative overflow-hidden border-b border-white/[0.06] bg-bg">
+      <div
+        className="pointer-events-none absolute inset-0 bg-hero-glow"
+        aria-hidden="true"
+      />
+      <Container className="relative py-16 md:py-24">
         <div className="max-w-3xl">
-          {eyebrow ? (
-            <p className="mb-3 text-sm font-semibold uppercase tracking-wide text-accent">
-              {eyebrow}
-            </p>
-          ) : null}
-          <h1 className="text-4xl font-bold tracking-tight text-primary sm:text-5xl">
+          {eyebrow ? <span className="eyebrow">{eyebrow}</span> : null}
+          <h1 className="font-display text-display-lg font-bold tracking-tight text-white">
             {title}
           </h1>
           {subtitle ? (

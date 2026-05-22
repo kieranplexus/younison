@@ -9,12 +9,14 @@ export default function VerticalGrid() {
         <Link
           key={slug}
           href={`/verticals/${slug}`}
-          className="group flex flex-col rounded-xl border border-line bg-white p-6 transition-colors hover:border-primary"
+          className="group flex flex-col rounded-2xl border border-white/[0.06] bg-bg-card p-6 transition-all hover:-translate-y-0.5 hover:border-accent/30 hover:bg-bg-card-hover"
         >
-          <span className="inline-flex h-11 w-11 items-center justify-center rounded-lg bg-surface text-primary">
+          <span className="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-accent/10 text-accent">
             <Icon className="h-5 w-5" aria-hidden="true" />
           </span>
-          <h3 className="mt-4 text-lg font-semibold text-primary">{name}</h3>
+          <h3 className="mt-4 font-display text-lg font-semibold text-white">
+            {name}
+          </h3>
           <p className="mt-2 flex-1 text-sm leading-relaxed text-muted">
             {summary}
           </p>

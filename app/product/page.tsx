@@ -77,9 +77,9 @@ export default function ProductPage() {
                 }`}
               >
                 <div className="md:w-2/5">
-                  <div className="flex aspect-[4/3] items-center justify-center rounded-2xl border border-line bg-surface">
+                  <div className="flex aspect-[4/3] items-center justify-center rounded-2xl border border-white/[0.06] bg-bg-card">
                     <Icon
-                      className="h-16 w-16 text-primary"
+                      className="h-16 w-16 text-accent"
                       strokeWidth={1.5}
                       aria-hidden="true"
                     />

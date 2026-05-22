@@ -90,14 +90,14 @@ export default function PricingPage() {
             {plans.map((plan) => (
               <div
                 key={plan.name}
-                className={`relative flex flex-col rounded-2xl border p-8 ${
+                className={`relative flex flex-col rounded-2xl border p-8 transition-all ${
                   plan.highlighted
-                    ? "border-primary bg-white shadow-lg ring-1 ring-primary"
-                    : "border-line bg-white"
+                    ? "border-accent/40 bg-bg-card shadow-card-float ring-1 ring-accent/30"
+                    : "border-white/[0.06] bg-bg-card hover:border-accent/30"
                 }`}
               >
                 {plan.highlighted ? (
-                  <span className="absolute -top-3 left-8 inline-flex items-center rounded-full bg-accent px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">
+                  <span className="absolute -top-3 left-8 inline-flex items-center rounded-full bg-accent px-3 py-1 text-xs font-bold uppercase tracking-wide text-bg">
                     Most popular
                   </span>
                 ) : null}

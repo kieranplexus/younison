@@ -4,7 +4,7 @@ import { useState, type FormEvent } from "react";
 import { site } from "@/lib/site";
 
 const fieldClasses =
-  "mt-1.5 w-full rounded-lg border border-line bg-white px-3.5 py-2.5 text-sm text-ink shadow-sm transition-colors placeholder:text-muted/70 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary";
+  "mt-1.5 w-full rounded-lg border border-white/10 bg-white/[0.04] px-3.5 py-2.5 text-sm text-ink transition-colors placeholder:text-muted/70 focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent";
 
 export default function ContactForm() {
   const [name, setName] = useState("");
@@ -98,7 +98,7 @@ export default function ContactForm() {
 
       <button
         type="submit"
-        className="inline-flex w-full items-center justify-center rounded-lg bg-accent px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-accent-dark sm:w-auto"
+        className="inline-flex w-full items-center justify-center rounded-full bg-accent px-7 py-3.5 text-sm font-bold text-bg transition-all hover:-translate-y-0.5 hover:shadow-btn-glow sm:w-auto"
       >
         Send message
       </button>

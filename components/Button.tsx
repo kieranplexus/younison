@@ -1,13 +1,18 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
 
-type Variant = "primary" | "secondary";
+type Variant = "primary" | "secondary" | "white";
+
+const base =
+  "inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 text-sm font-bold transition-all focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent";
 
 const styles: Record<Variant, string> = {
   primary:
-    "bg-accent text-white hover:bg-accent-dark shadow-sm focus-visible:outline-accent",
+    "bg-accent text-bg hover:-translate-y-0.5 hover:shadow-btn-glow",
+  white:
+    "bg-white text-bg hover:-translate-y-0.5 hover:shadow-btn-white-glow",
   secondary:
-    "bg-white text-primary border border-line hover:border-primary hover:bg-surface",
+    "border border-white/15 text-ink hover:border-accent hover:text-accent",
 };
 
 export default function Button({
@@ -22,7 +27,7 @@ export default function Button({
   className?: string;
 }) {
   const isExternal = href.startsWith("http") || href.startsWith("mailto:");
-  const classes = `inline-flex items-center justify-center gap-2 rounded-lg px-5 py-3 text-sm font-semibold transition-colors ${styles[variant]} ${className}`;
+  const classes = `${base} ${styles[variant]} ${className}`;
 
   if (isExternal) {
     return (
