@@ -38,7 +38,7 @@ export default function Footer() {
         <div className="grid grid-cols-2 gap-10 md:grid-cols-4">
           <div className="col-span-2 md:col-span-1">
             <span className="font-display text-lg font-bold tracking-tight text-white">
-              Cen<span className="text-accent">tral</span>
+              Cent<span className="text-accent">ral</span>
             </span>
             <p className="mt-3 max-w-xs text-sm text-muted">{site.tagline}</p>
             <a
