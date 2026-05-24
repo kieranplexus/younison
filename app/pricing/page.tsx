@@ -8,71 +8,81 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Pricing",
   description:
-    "Simple monthly pricing for small business customer communications. Plans from €49/month with a 14-day free trial.",
+    "AI call answering for pharmacies, from €199/month. Central answers your calls — prescriptions, opening hours, repeat orders, and out-of-hours — so your team can focus on patients. Free setup, no contract.",
   openGraph: {
     title: "Pricing | Central",
     description:
-      "Simple monthly pricing for small business customer communications. Plans from €49/month with a 14-day free trial.",
+      "AI call answering for pharmacies, from €199/month. Free setup, no long-term contract.",
     url: `${site.url}/pricing`,
   },
 };
 
 const plans = [
   {
-    name: "Starter",
-    price: "€49",
+    name: "After-hours",
+    price: "€199",
     cadence: "/month",
     features: [
-      "Single team inbox",
-      "Up to 2 team members",
-      "Standard messaging templates",
-      "Email support",
+      "200 calls/month included",
+      "Out-of-hours & busy-time overflow",
+      "Opening hours, location & general enquiries",
+      "Voicemail summaries & urgent-call alerts",
+      "Then €0.75 per extra call",
+      "Free setup & onboarding",
     ],
     cta: { label: "Get started", href: "/contact" },
     highlighted: false,
   },
   {
-    name: "Growth",
-    price: "€149",
+    name: "Full cover",
+    price: "€499",
     cadence: "/month",
     features: [
-      "Single team inbox",
-      "Up to 10 team members",
-      "Custom templates",
-      "Appointment reminder workflows",
-      "Priority email support",
+      "450 calls/month included",
+      "All-day answering, on every line",
+      "Prescription status & repeat orders",
+      "Stock & opening-hours queries",
+      "Warm transfer to your team for clinical questions",
+      "Then €0.65 per extra call",
+      "Free setup, onboarding & priority support",
     ],
     cta: { label: "Get started", href: "/contact" },
     highlighted: true,
   },
   {
-    name: "Scale",
-    price: "Contact us",
-    cadence: "",
+    name: "High volume",
+    price: "€999",
+    cadence: "/month",
     features: [
-      "Multiple team inboxes",
-      "Unlimited team members",
-      "Multi-location support",
-      "Custom integrations",
+      "1,000 calls/month included",
+      "For multi-line & high-traffic pharmacies",
+      "Custom call flows & dispensary/PMR integration",
+      "Call analytics & reporting",
       "Dedicated account manager",
+      "Then €0.55 per extra call",
+      "Free setup & onboarding",
     ],
-    cta: { label: "Contact sales", href: "/contact" },
+    cta: { label: "Talk to us", href: "/contact" },
     highlighted: false,
   },
 ];
 
 const faqs = [
   {
-    q: "Can I change plans later?",
-    a: "Yes — you can upgrade or downgrade at any time. Changes take effect at the next billing cycle.",
+    q: "What happens if I go over my included calls?",
+    a: "Extra calls are billed at your plan's per-call rate. We keep an eye on your volume and flag it early if you're trending above your plan, so you can move up a tier before it adds up.",
   },
   {
-    q: "Do you offer a free trial?",
-    a: "We offer a 14-day free trial on Starter and Growth plans. Contact us for Scale trials.",
+    q: "Can the AI transfer to a real person?",
+    a: "Yes. Central handles routine calls end to end and warm-transfers anything clinical or complex straight to your team during opening hours.",
   },
   {
-    q: "How does billing work?",
-    a: "Monthly subscription billed in advance. Annual billing available on request with a discount.",
+    q: "Do I need to change my phone number?",
+    a: "No. Calls forward from your existing pharmacy line, so nothing changes for your patients — they ring the same number they always have.",
+  },
+  {
+    q: "Is there a setup fee or a contract?",
+    a: "No setup fee — configuration and onboarding are included. Plans are billed monthly with no long-term lock-in, so you can change or cancel as your needs change.",
   },
 ];
 
@@ -80,8 +90,9 @@ export default function PricingPage() {
   return (
     <>
       <PageHeader
-        title="Simple pricing that grows with your business."
-        subtitle="Choose the plan that fits your team. All plans include core inbox and messaging features."
+        eyebrow="Pricing"
+        title="Pricing that pays for itself."
+        subtitle="Central answers your pharmacy's calls so your team can focus on patients. Plans scale with your call volume — and setup is on us."
       />
 
       <section>
@@ -135,9 +146,10 @@ export default function PricingPage() {
           </div>
 
           <p className="mx-auto mt-12 max-w-3xl text-center text-muted">
-            All plans include standard customer messaging across SMS, web chat,
-            and email. WhatsApp Business integration available where eligible —
-            contact us for details.
+            All plans include EU-based hosting, call routing from your existing
+            number, and free setup — no installation fee and no long-term
+            contract. Running a pharmacy group or multiple locations? Contact us
+            for custom per-location pricing.
           </p>
 
           <div className="mx-auto mt-20 max-w-3xl">
