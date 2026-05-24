@@ -7,11 +7,11 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Terms of Service",
   description:
-    "The terms governing use of the Younison customer communications platform, operated by Nutrapi Limited.",
+    "The terms governing use of the Central customer communications platform, operated by Nutrapi Limited.",
   openGraph: {
-    title: "Terms of Service | Younison",
+    title: "Terms of Service | Central",
     description:
-      "The terms governing use of the Younison customer communications platform, operated by Nutrapi Limited.",
+      "The terms governing use of the Central customer communications platform, operated by Nutrapi Limited.",
     url: `${site.url}/legal/terms`,
   },
 };
@@ -29,15 +29,15 @@ export default function TermsPage() {
           <Prose className="max-w-3xl">
             <p>
               These Terms of Service (the &ldquo;Terms&rdquo;) govern your access
-              to and use of the Younison platform and website, operated by
+              to and use of the Central platform and website, operated by
               Nutrapi Limited (CRO {site.company.cro}), {site.company.address},{" "}
-              {site.company.country} (&ldquo;Younison,&rdquo; &ldquo;we,&rdquo;
+              {site.company.country} (&ldquo;Central,&rdquo; &ldquo;we,&rdquo;
               &ldquo;us&rdquo;). By using the service you agree to these Terms.
             </p>
 
             <h2>1. Definitions</h2>
             <p>
-              &ldquo;Service&rdquo; means the Younison customer communications
+              &ldquo;Service&rdquo; means the Central customer communications
               platform and related websites. &ldquo;Customer,&rdquo;
               &ldquo;you,&rdquo; and &ldquo;your&rdquo; mean the business or
               individual that registers for the Service. &ldquo;End
@@ -47,7 +47,7 @@ export default function TermsPage() {
 
             <h2>2. Service description</h2>
             <p>
-              Younison is a customer communications platform that brings
+              Central is a customer communications platform that brings
               messaging, email, web chat, scheduling, and customer records into a
               single shared inbox for small businesses.
             </p>

@@ -21,22 +21,22 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: "Younison — Customer communications platform for small business",
-    template: "%s | Younison",
+    default: "Central — Customer communications platform for small business",
+    template: "%s | Central",
   },
   description: site.description,
-  applicationName: "Younison",
+  applicationName: "Central",
   openGraph: {
-    title: "Younison — Customer communications platform for small business",
+    title: "Central — Customer communications platform for small business",
     description: site.description,
     url: site.url,
-    siteName: "Younison",
+    siteName: "Central",
     locale: "en_IE",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Younison — Customer communications platform for small business",
+    title: "Central — Customer communications platform for small business",
     description: site.description,
   },
   robots: {

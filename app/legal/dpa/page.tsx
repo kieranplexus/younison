@@ -7,11 +7,11 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Data Processing Agreement",
   description:
-    "The Data Processing Agreement governing how Younison processes personal data on behalf of its customers under the GDPR.",
+    "The Data Processing Agreement governing how Central processes personal data on behalf of its customers under the GDPR.",
   openGraph: {
-    title: "Data Processing Agreement | Younison",
+    title: "Data Processing Agreement | Central",
     description:
-      "The Data Processing Agreement governing how Younison processes personal data on behalf of its customers under the GDPR.",
+      "The Data Processing Agreement governing how Central processes personal data on behalf of its customers under the GDPR.",
     url: `${site.url}/legal/dpa`,
   },
 };
@@ -30,11 +30,11 @@ export default function DpaPage() {
             <h2>1. Background and scope</h2>
             <p>
               This Data Processing Agreement (&ldquo;DPA&rdquo;) forms part of the
-              agreement between Nutrapi Limited, trading as Younison (the
+              agreement between Nutrapi Limited, trading as Central (the
               &ldquo;Processor&rdquo;), and the customer (the
-              &ldquo;Controller&rdquo;) for use of the Younison platform. It sets
+              &ldquo;Controller&rdquo;) for use of the Central platform. It sets
               out how personal data is processed on the Controller&rsquo;s behalf
-              and applies whenever Younison processes personal data subject to the
+              and applies whenever Central processes personal data subject to the
               GDPR.
             </p>
 
@@ -44,7 +44,7 @@ export default function DpaPage() {
               &ldquo;Personal Data,&rdquo; &ldquo;Processing,&rdquo; and
               &ldquo;Data Subject&rdquo; have the meanings given to them in the
               GDPR. &ldquo;Customer Personal Data&rdquo; means personal data
-              processed by Younison on behalf of the Controller under the
+              processed by Central on behalf of the Controller under the
               agreement.
             </p>
 
@@ -55,7 +55,7 @@ export default function DpaPage() {
                 customer communications.
               </li>
               <li>
-                <strong>Purpose:</strong> providing the Younison platform to the
+                <strong>Purpose:</strong> providing the Central platform to the
                 Controller.
               </li>
               <li>
@@ -72,9 +72,9 @@ export default function DpaPage() {
               </li>
             </ul>
 
-            <h2>4. Younison obligations as Processor</h2>
+            <h2>4. Central obligations as Processor</h2>
             <p>
-              Younison shall process Customer Personal Data only on documented
+              Central shall process Customer Personal Data only on documented
               instructions from the Controller, ensure that persons authorised to
               process the data are bound by confidentiality, and assist the
               Controller in meeting its obligations under the GDPR.
@@ -82,29 +82,29 @@ export default function DpaPage() {
 
             <h2>5. Security measures</h2>
             <p>
-              Younison implements appropriate technical and organisational
+              Central implements appropriate technical and organisational
               measures to protect Customer Personal Data, as further described in
               Schedule A.
             </p>
 
             <h2>6. Sub-processors</h2>
             <p>
-              The Controller authorises Younison to engage the sub-processors
-              listed in Schedule B. Younison will inform the Controller of any
+              The Controller authorises Central to engage the sub-processors
+              listed in Schedule B. Central will inform the Controller of any
               intended changes to its sub-processors and give the Controller the
               opportunity to object on reasonable grounds.
             </p>
 
             <h2>7. Data subject rights assistance</h2>
             <p>
-              Younison shall, taking into account the nature of the processing,
+              Central shall, taking into account the nature of the processing,
               assist the Controller by appropriate measures in responding to
               requests from data subjects exercising their rights under the GDPR.
             </p>
 
             <h2>8. Data breach notification</h2>
             <p>
-              Younison shall notify the Controller without undue delay after
+              Central shall notify the Controller without undue delay after
               becoming aware of a personal data breach affecting Customer Personal
               Data, and shall provide information reasonably required to support
               the Controller&rsquo;s own notification obligations.
@@ -112,7 +112,7 @@ export default function DpaPage() {
 
             <h2>9. Data deletion or return on termination</h2>
             <p>
-              On termination of the agreement, Younison shall, at the
+              On termination of the agreement, Central shall, at the
               Controller&rsquo;s choice, delete or return all Customer Personal
               Data, unless retention is required by applicable law.
             </p>
@@ -120,13 +120,13 @@ export default function DpaPage() {
             <h2>10. International transfers</h2>
             <p>
               Where Customer Personal Data is transferred outside the European
-              Economic Area, Younison relies on Standard Contractual Clauses or
+              Economic Area, Central relies on Standard Contractual Clauses or
               another lawful transfer mechanism.
             </p>
 
             <h2>11. Audit rights</h2>
             <p>
-              Younison shall make available to the Controller information
+              Central shall make available to the Controller information
               reasonably necessary to demonstrate compliance with this DPA and
               allow for audits, including inspections, subject to reasonable
               notice and confidentiality.
@@ -140,7 +140,7 @@ export default function DpaPage() {
 
             <h2>13. Term and termination</h2>
             <p>
-              This DPA remains in effect for as long as Younison processes
+              This DPA remains in effect for as long as Central processes
               Customer Personal Data on behalf of the Controller.
             </p>
 

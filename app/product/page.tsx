@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description:
     "Shared inbox, appointment reminders, customer profiles, and templates. Everything your team needs to manage customer communications.",
   openGraph: {
-    title: "Product features | Younison",
+    title: "Product features | Central",
     description:
       "Shared inbox, appointment reminders, customer profiles, and templates. Everything your team needs to manage customer communications.",
     url: `${site.url}/product`,
@@ -54,7 +54,7 @@ const features: { Icon: LucideIcon; title: string; body: string }[] = [
   {
     Icon: Plug,
     title: "Integrations",
-    body: "Younison connects with the tools your business already uses for bookings, payments, and inventory. Available integrations include calendar tools, payment platforms, and standard scheduling software.",
+    body: "Central connects with the tools your business already uses for bookings, payments, and inventory. Available integrations include calendar tools, payment platforms, and standard scheduling software.",
   },
 ];
 
@@ -103,7 +103,7 @@ export default function ProductPage() {
         <Container className="py-16">
           <div className="flex flex-col items-start gap-6 sm:flex-row sm:items-center sm:justify-between">
             <p className="text-xl font-semibold text-primary">
-              Want to see Younison in action?
+              Want to see Central in action?
             </p>
             <Button href="/contact">Contact us</Button>
           </div>

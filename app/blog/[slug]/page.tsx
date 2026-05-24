@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     title: post.title,
     description: post.excerpt,
     openGraph: {
-      title: `${post.title} | Younison`,
+      title: `${post.title} | Central`,
       description: post.excerpt,
       url: `${site.url}/blog/${post.slug}`,
       type: "article",
@@ -76,7 +76,7 @@ export default async function BlogPostPage({ params }: Params) {
               Keeping up with customer communications?
             </p>
             <p className="mt-2 text-muted">
-              See how Younison brings every channel into one shared inbox.
+              See how Central brings every channel into one shared inbox.
             </p>
             <div className="mt-6 flex flex-wrap gap-4">
               <Button href="/contact">Get in touch</Button>

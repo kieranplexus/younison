@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Blog",
   description: "Practical thoughts on customer communications for small business.",
   openGraph: {
-    title: "Blog | Younison",
+    title: "Blog | Central",
     description:
       "Practical thoughts on customer communications for small business.",
     url: `${site.url}/blog`,
@@ -21,7 +21,7 @@ export default function BlogPage() {
   return (
     <>
       <PageHeader
-        title="Younison blog."
+        title="Central blog."
         subtitle="Practical thoughts on customer communications for small business."
       />
 

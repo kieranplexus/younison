@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     title: data.metaTitle,
     description: data.summary,
     openGraph: {
-      title: `${data.metaTitle} | Younison`,
+      title: `${data.metaTitle} | Central`,
       description: data.summary,
       url: `${site.url}/verticals/${data.slug}`,
     },
@@ -70,7 +70,7 @@ export default async function VerticalPage({ params }: Params) {
 
             {data.pharmin ? (
               <p className="mt-6 text-lg leading-relaxed text-muted">
-                Younison works alongside a specialised pharmacy product,{" "}
+                Central works alongside a specialised pharmacy product,{" "}
                 <a
                   href="https://pharmin.io"
                   target="_blank"

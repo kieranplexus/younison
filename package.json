@@ -1,8 +1,8 @@
 {
-  "name": "younison-web",
+  "name": "central-web",
   "version": "1.0.0",
   "private": true,
-  "description": "Younison — customer communications platform marketing site.",
+  "description": "Central — customer communications platform marketing site.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

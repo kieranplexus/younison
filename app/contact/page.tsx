@@ -7,11 +7,11 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with the Younison team. Sales, support, and general enquiries.",
+    "Get in touch with the Central team. Sales, support, and general enquiries.",
   openGraph: {
-    title: "Contact | Younison",
+    title: "Contact | Central",
     description:
-      "Get in touch with the Younison team. Sales, support, and general enquiries.",
+      "Get in touch with the Central team. Sales, support, and general enquiries.",
     url: `${site.url}/contact`,
   },
 };
@@ -27,7 +27,7 @@ export default function ContactPage() {
     <>
       <PageHeader
         title="Get in touch."
-        subtitle="Interested in Younison for your business? We'd be happy to talk."
+        subtitle="Interested in Central for your business? We'd be happy to talk."
       />
 
       <section>

@@ -8,11 +8,11 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Younison is built by Nutrapi Limited, an Irish software company building practical tools for small business customer communications.",
+    "Central is built by Nutrapi Limited, an Irish software company building practical tools for small business customer communications.",
   openGraph: {
-    title: "About | Younison",
+    title: "About | Central",
     description:
-      "Younison is built by Nutrapi Limited, an Irish software company building practical tools for small business customer communications.",
+      "Central is built by Nutrapi Limited, an Irish software company building practical tools for small business customer communications.",
     url: `${site.url}/about`,
   },
 };
@@ -20,13 +20,13 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <>
-      <PageHeader title="About Younison." />
+      <PageHeader title="About Central." />
 
       <section>
         <Container className="py-16 md:py-20">
           <Prose className="max-w-3xl">
             <p>
-              Younison is a customer communications platform built by Nutrapi
+              Central is a customer communications platform built by Nutrapi
               Limited, an Irish software company.
             </p>
             <p>
@@ -51,7 +51,7 @@ export default function AboutPage() {
 
             <h2>Team</h2>
             <p>
-              Younison is led by Kieran Walkin, founder of Nutrapi Limited, with
+              Central is led by Kieran Walkin, founder of Nutrapi Limited, with
               engineering across Ireland and Lithuania. Our team has backgrounds
               in technology, retail systems, and customer engagement software.
             </p>

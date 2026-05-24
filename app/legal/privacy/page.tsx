@@ -7,11 +7,11 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "How Nutrapi Limited, trading as Younison, collects, uses, and protects personal data in line with the GDPR.",
+    "How Nutrapi Limited, trading as Central, collects, uses, and protects personal data in line with the GDPR.",
   openGraph: {
-    title: "Privacy Policy | Younison",
+    title: "Privacy Policy | Central",
     description:
-      "How Nutrapi Limited, trading as Younison, collects, uses, and protects personal data in line with the GDPR.",
+      "How Nutrapi Limited, trading as Central, collects, uses, and protects personal data in line with the GDPR.",
     url: `${site.url}/legal/privacy`,
   },
 };
@@ -26,7 +26,7 @@ export default function PrivacyPage() {
           <Prose className="max-w-3xl">
             <p>
               This Privacy Policy explains how we collect, use, and protect
-              personal data when you use the Younison platform and website. We
+              personal data when you use the Central platform and website. We
               are committed to handling personal data in accordance with the EU
               General Data Protection Regulation (GDPR) and the Irish Data
               Protection Act 2018.
@@ -34,7 +34,7 @@ export default function PrivacyPage() {
 
             <h2>1. Who we are</h2>
             <p>
-              Younison is operated by Nutrapi Limited, a company registered in
+              Central is operated by Nutrapi Limited, a company registered in
               Ireland (CRO {site.company.cro}), with its registered office at{" "}
               {site.company.address}, {site.company.country}. Nutrapi Limited is
               the data controller for personal data processed through this
@@ -126,7 +126,7 @@ export default function PrivacyPage() {
               </li>
             </ul>
             <p>
-              When you communicate with businesses using Younison, your messages
+              When you communicate with businesses using Central, your messages
               are processed by our BSP partners in accordance with their privacy
               policies and the messaging platform&rsquo;s terms (including Meta
               for WhatsApp Business).

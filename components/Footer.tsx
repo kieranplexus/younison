@@ -38,14 +38,14 @@ export default function Footer() {
         <div className="grid grid-cols-2 gap-10 md:grid-cols-4">
           <div className="col-span-2 md:col-span-1">
             <span className="font-display text-lg font-bold tracking-tight text-white">
-              Youni<span className="text-accent">son</span>
+              Cen<span className="text-accent">tral</span>
             </span>
             <p className="mt-3 max-w-xs text-sm text-muted">{site.tagline}</p>
             <a
               href={site.linkedin}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Younison on LinkedIn"
+              aria-label="Central on LinkedIn"
               className="mt-5 inline-flex h-9 w-9 items-center justify-center rounded-md border border-white/10 text-muted transition-colors hover:border-accent hover:text-accent"
             >
               <Linkedin className="h-4 w-4" />
@@ -62,7 +62,7 @@ export default function Footer() {
         <Container className="py-8">
           <div className="space-y-2 text-sm text-ink-muted">
             <p>
-              Younison is a product of{" "}
+              Central is a product of{" "}
               <span className="font-medium text-ink">
                 {site.company.legalName}
               </span>
@@ -89,7 +89,7 @@ export default function Footer() {
               </a>
             </p>
             <p className="pt-2 text-muted">
-              © 2026 {site.company.legalName} trading as Younison. All rights
+              © 2026 {site.company.legalName} trading as Central. All rights
               reserved.
             </p>
           </div>

@@ -31,7 +31,7 @@ export const verticals: Vertical[] = [
     metaTitle: "Veterinary customer communications",
     h1: "Customer communications for veterinary practices.",
     intro:
-      "Veterinary practices juggle appointment bookings, vaccination reminders, and follow-up enquiries from pet owners. Younison gives your front-of-house team one place to manage all of it.",
+      "Veterinary practices juggle appointment bookings, vaccination reminders, and follow-up enquiries from pet owners. Central gives your front-of-house team one place to manage all of it.",
     uses: [
       "Appointment confirmations and reminders for routine visits",
       "Vaccination and treatment renewal reminders",
@@ -40,7 +40,7 @@ export const verticals: Vertical[] = [
       "General queries from pet owners during busy clinic hours",
     ],
     closing:
-      "Practices using Younison report fewer missed appointments and quicker response times to customer queries — without adding to the front-desk workload.",
+      "Practices using Central report fewer missed appointments and quicker response times to customer queries — without adding to the front-desk workload.",
   },
   {
     slug: "retail",
@@ -51,7 +51,7 @@ export const verticals: Vertical[] = [
     metaTitle: "Retail customer communications",
     h1: "Customer communications for independent retail.",
     intro:
-      "Independent shops handle a constant stream of customer enquiries: stock availability, opening hours, click-and-collect orders, returns. Younison gives your team one place to manage every channel.",
+      "Independent shops handle a constant stream of customer enquiries: stock availability, opening hours, click-and-collect orders, returns. Central gives your team one place to manage every channel.",
     uses: [
       "Click-and-collect order ready notifications",
       "Stock availability queries",
@@ -60,7 +60,7 @@ export const verticals: Vertical[] = [
       "General customer service enquiries",
     ],
     closing:
-      "Independent retailers using Younison keep up with messaging across channels without anyone needing to monitor multiple apps.",
+      "Independent retailers using Central keep up with messaging across channels without anyone needing to monitor multiple apps.",
   },
   {
     slug: "hospitality",
@@ -71,7 +71,7 @@ export const verticals: Vertical[] = [
     metaTitle: "Hospitality customer communications",
     h1: "Customer communications for hospitality and food service.",
     intro:
-      "Restaurants, cafés, and small hospitality venues handle bookings, special requests, and customer queries — often during the busiest service hours. Younison keeps it manageable.",
+      "Restaurants, cafés, and small hospitality venues handle bookings, special requests, and customer queries — often during the busiest service hours. Central keeps it manageable.",
     uses: [
       "Booking confirmations and reminders",
       "Special request communications (dietary, group size, accessibility)",
@@ -80,7 +80,7 @@ export const verticals: Vertical[] = [
       "General customer enquiries",
     ],
     closing:
-      "Hospitality teams using Younison reduce booking-related phone calls and respond faster to customer questions during service.",
+      "Hospitality teams using Central reduce booking-related phone calls and respond faster to customer questions during service.",
   },
   {
     slug: "professional-services",
@@ -91,7 +91,7 @@ export const verticals: Vertical[] = [
     metaTitle: "Professional services customer communications",
     h1: "Customer communications for professional services firms.",
     intro:
-      "Accountants, solicitors, consultants, and other professional services firms communicate with clients about appointments, document collection, and ongoing matters. Younison organises it all.",
+      "Accountants, solicitors, consultants, and other professional services firms communicate with clients about appointments, document collection, and ongoing matters. Central organises it all.",
     uses: [
       "Appointment confirmations and reminders",
       "Document collection requests and updates",
@@ -100,7 +100,7 @@ export const verticals: Vertical[] = [
       "Holiday and availability notifications",
     ],
     closing:
-      "Professional services teams using Younison maintain consistent client communication without manual tracking.",
+      "Professional services teams using Central maintain consistent client communication without manual tracking.",
   },
   {
     slug: "trades",
@@ -111,7 +111,7 @@ export const verticals: Vertical[] = [
     metaTitle: "Trades customer communications",
     h1: "Customer communications for trades and home services.",
     intro:
-      "Plumbers, electricians, builders, and other trades professionals juggle appointment bookings, on-the-day rescheduling, and follow-up enquiries — often from the van. Younison makes it simple.",
+      "Plumbers, electricians, builders, and other trades professionals juggle appointment bookings, on-the-day rescheduling, and follow-up enquiries — often from the van. Central makes it simple.",
     uses: [
       "Appointment confirmations and arrival window updates",
       "Quote follow-ups",
@@ -120,7 +120,7 @@ export const verticals: Vertical[] = [
       "Aftercare and warranty communications",
     ],
     closing:
-      "Trades professionals using Younison spend less time on the phone managing scheduling and more time on the work.",
+      "Trades professionals using Central spend less time on the phone managing scheduling and more time on the work.",
   },
   {
     slug: "community-pharmacy",
@@ -131,7 +131,7 @@ export const verticals: Vertical[] = [
     metaTitle: "Community pharmacy customer communications",
     h1: "Customer communications for community pharmacies.",
     intro:
-      "Community pharmacies handle a wide range of customer interactions every day: orders ready for collection, queries about opening hours, store updates, and general customer service. Younison gives your team one place to manage every channel.",
+      "Community pharmacies handle a wide range of customer interactions every day: orders ready for collection, queries about opening hours, store updates, and general customer service. Central gives your team one place to manage every channel.",
     uses: [
       "Order ready for collection notifications",
       "Opening hours and holiday updates",
@@ -140,7 +140,7 @@ export const verticals: Vertical[] = [
       "Loyalty programme and consultation booking reminders",
     ],
     closing:
-      "Community pharmacies using Younison reduce phone-based admin and respond faster to customer queries — particularly during busy periods.",
+      "Community pharmacies using Central reduce phone-based admin and respond faster to customer queries — particularly during busy periods.",
     pharmin: true,
   },
 ];

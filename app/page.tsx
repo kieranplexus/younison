@@ -43,7 +43,7 @@ export default function HomePage() {
                 <span className="accent-italic">customer</span> conversation.
               </h1>
               <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted">
-                Younison helps small businesses manage customer enquiries,
+                Central helps small businesses manage customer enquiries,
                 appointment reminders, and day-to-day communications across
                 messaging, email, and web chat — from a single shared inbox.
               </p>
@@ -91,7 +91,7 @@ export default function HomePage() {
                 sits in someone&rsquo;s notebook.
               </p>
               <p>
-                Younison brings all of it into one place, with simple tools to
+                Central brings all of it into one place, with simple tools to
                 keep up with everything your customers ask.
               </p>
             </div>
@@ -137,8 +137,8 @@ export default function HomePage() {
               <span className="accent-italic">workflows</span>.
             </h2>
             <p className="mt-5 text-lg leading-relaxed text-muted">
-              Younison serves independent businesses across multiple sectors.
-              Each industry has its own page with examples of how Younison fits
+              Central serves independent businesses across multiple sectors.
+              Each industry has its own page with examples of how Central fits
               in.
             </p>
           </div>
@@ -148,17 +148,17 @@ export default function HomePage() {
         </Container>
       </section>
 
-      {/* Why Younison */}
+      {/* Why Central */}
       <section className="bg-bg-card">
         <Container className="py-20 md:py-28">
           <div className="max-w-3xl">
-            <span className="eyebrow">Why Younison</span>
+            <span className="eyebrow">Why Central</span>
             <h2 className="font-display text-display-lg font-semibold text-white">
               Built in Ireland. Made for{" "}
               <span className="accent-italic">small business</span>.
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-muted">
-              Younison is built by Nutrapi Limited, an Irish software company. We
+              Central is built by Nutrapi Limited, an Irish software company. We
               focus on practical day-to-day communications tools that small
               businesses actually need — not features nobody uses.
             </p>

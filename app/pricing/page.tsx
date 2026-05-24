@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Simple monthly pricing for small business customer communications. Plans from €49/month with a 14-day free trial.",
   openGraph: {
-    title: "Pricing | Younison",
+    title: "Pricing | Central",
     description:
       "Simple monthly pricing for small business customer communications. Plans from €49/month with a 14-day free trial.",
     url: `${site.url}/pricing`,

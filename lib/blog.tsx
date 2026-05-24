@@ -79,7 +79,7 @@ export const posts: Post[] = [
           — not more apps.
         </p>
         <p>
-          Tools like Younison help small teams keep up with customer
+          Tools like Central help small teams keep up with customer
           communications across channels. If you would like to talk through how
           it might fit your business,{" "}
           <Link href="/contact">get in touch</Link>.
@@ -127,7 +127,7 @@ export const posts: Post[] = [
           need to, close enough that it stays fresh. This is where most recovered
           slots come from: a reminder prompts the person who would otherwise have
           forgotten to either show up or reschedule, and either outcome beats an
-          empty chair. Tools like Younison can automate reminder sends so this
+          empty chair. Tools like Central can automate reminder sends so this
           happens reliably without anyone remembering to do it by hand.
         </p>
 
@@ -268,7 +268,7 @@ export const posts: Post[] = [
           the unglamorous fix that quietly makes the day run smoother.
         </p>
         <p>
-          Tools like Younison exist to make that consolidation straightforward,
+          Tools like Central exist to make that consolidation straightforward,
           but the principle matters more than any particular product: customers
           do not care which channel they used, only that someone got back to
           them.

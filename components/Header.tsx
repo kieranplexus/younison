@@ -18,7 +18,7 @@ export default function Header() {
             className="font-display text-xl font-bold tracking-tight text-white"
             onClick={() => setOpen(false)}
           >
-            Youni<span className="text-accent">son</span>
+            Cen<span className="text-accent">tral</span>
           </Link>
 
           <nav aria-label="Primary" className="hidden items-center gap-1 md:flex">

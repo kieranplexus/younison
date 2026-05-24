@@ -1,10 +1,10 @@
 export const site = {
-  name: "Younison",
-  domain: "younison.cloud",
-  url: "https://younison.cloud",
+  name: "Central",
+  domain: "getcentral.io",
+  url: "https://getcentral.io",
   tagline: "Customer communications for small business.",
   description:
-    "One inbox for every customer conversation. Younison helps small businesses manage enquiries, appointment reminders, and customer messaging across every channel.",
+    "One inbox for every customer conversation. Central helps small businesses manage enquiries, appointment reminders, and customer messaging across every channel.",
   company: {
     legalName: "Nutrapi Limited",
     cro: "721111",
@@ -12,14 +12,14 @@ export const site = {
     country: "Ireland",
   },
   emails: {
-    sales: "kieran@younison.cloud",
-    general: "hello@younison.cloud",
-    support: "support@younison.cloud",
-    privacy: "privacy@younison.cloud",
-    legal: "legal@younison.cloud",
+    sales: "kieran@getcentral.io",
+    general: "hello@getcentral.io",
+    support: "support@getcentral.io",
+    privacy: "privacy@getcentral.io",
+    legal: "legal@getcentral.io",
   },
   // PLACEHOLDER_LINKEDIN_URL — replace with the live company page before launch.
-  linkedin: "https://www.linkedin.com/company/younison",
+  linkedin: "https://www.linkedin.com/company/getcentral",
 } as const;
 
 export const navLinks = [

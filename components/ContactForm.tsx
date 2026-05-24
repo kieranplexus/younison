@@ -15,7 +15,7 @@ export default function ContactForm() {
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
-    const subject = `Younison enquiry from ${name || "website"}`;
+    const subject = `Central enquiry from ${name || "website"}`;
     const body = [
       `Name: ${name}`,
       `Email: ${email}`,
